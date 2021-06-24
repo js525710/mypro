@@ -1,0 +1,7 @@
+Django~=3.2.4
+pymysql
+mysqlclient
+drf-yasg
+swagger-spec-validator
+# 安装方式
+# pip install -r requirements.txt
