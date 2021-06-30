@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 
-class UserInfo1(models.Model):
+class UserInfo(models.Model):
     class Meta:
         # 指定数据表名
         db_table = 'userinfo'
