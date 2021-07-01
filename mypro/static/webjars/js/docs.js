@@ -266,6 +266,13 @@ function getData(operationId) {
                 parameterJson[k] = v;
             }
         });
+        $("[p_operationId='" + operationId + "'][in='body']").each(function (index, domEle) {
+            var k = $(domEle).attr("name");
+            var v = $(domEle).val();
+            if (v) {
+                parameterJson[k] = v;
+            }
+        });
     } else if ("json" == parameterType) {
         var str = $("#text_tp_" + operationId).val();
         try {

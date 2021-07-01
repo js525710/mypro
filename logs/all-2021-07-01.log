@@ -1,0 +1,24 @@
+2021-07-01 11:16:32,439 INFO Watching for file changes with StatReloader
+2021-07-01 11:20:19,650 INFO /Users/shanjin/lls/python_project/mypro/mypro/settings.py changed, reloading.
+2021-07-01 11:20:20,522 INFO Watching for file changes with StatReloader
+2021-07-01 11:48:58,800 INFO "POST /mypro/api/user/login HTTP/1.1" 200 170
+2021-07-01 11:49:35,127 INFO "POST /mypro/api/user/login HTTP/1.1" 200 170
+2021-07-01 11:49:35,330 INFO /Users/shanjin/lls/python_project/mypro/api/views.py changed, reloading.
+2021-07-01 11:49:35,910 INFO Watching for file changes with StatReloader
+2021-07-01 11:49:40,367 INFO "POST /mypro/api/user/login HTTP/1.1" 200 170
+2021-07-01 11:58:39,667 INFO /Users/shanjin/lls/python_project/mypro/api/apps.py changed, reloading.
+2021-07-01 11:58:40,851 INFO Watching for file changes with StatReloader
+2021-07-01 12:00:28,115 INFO /Users/shanjin/lls/python_project/mypro/api/views.py changed, reloading.
+2021-07-01 12:00:29,025 INFO Watching for file changes with StatReloader
+2021-07-01 12:00:36,210 INFO "POST /mypro/api/user/login HTTP/1.1" 200 170
+2021-07-01 12:00:38,116 INFO "POST /mypro/api/user/login HTTP/1.1" 200 170
+2021-07-01 12:02:32,524 INFO /Users/shanjin/lls/python_project/mypro/api/views.py changed, reloading.
+2021-07-01 12:02:33,447 INFO Watching for file changes with StatReloader
+2021-07-01 12:03:03,370 INFO {'username': 'will', 'pwd': '123456'}
+2021-07-01 12:03:03,512 INFO "POST /mypro/api/user/login HTTP/1.1" 200 170
+2021-07-01 12:03:04,576 INFO {'username': 'will', 'pwd': '123456'}
+2021-07-01 12:03:04,724 INFO "POST /mypro/api/user/login HTTP/1.1" 200 170
+2021-07-01 12:06:58,132 INFO /Users/shanjin/lls/python_project/mypro/api/apps.py changed, reloading.
+2021-07-01 12:06:59,748 INFO Watching for file changes with StatReloader
+2021-07-01 12:08:25,694 INFO /Users/shanjin/lls/python_project/mypro/api/views.py changed, reloading.
+2021-07-01 12:08:26,426 INFO Watching for file changes with StatReloader

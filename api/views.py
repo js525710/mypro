@@ -9,6 +9,7 @@ from api.models import UserInfo
 from rest_framework.views import APIView
 from drf_yasg.utils import swagger_auto_schema
 from drf_yasg import openapi
+from api.apps import logger
 
 
 def apitest001(request):
@@ -141,6 +142,7 @@ class Login(APIView):
         responses={200: openapi.Response('response description', UserInfoSerializer),
                    210: openapi.Response('errorcode description', UserErrCode)},
         tags=['用户接口', 'application/json', 'application/json;'],
+        # tags=['用户接口', 'application/x-www-form-urlencoded', 'application/json;'],
     )
     def post(self, request):
         """
@@ -148,8 +150,9 @@ class Login(APIView):
         """
         # json.loads()是用来把字符串变为dict
         kwargs = json.loads(request.body)
-        print(type(kwargs))
-        # logger.info(kwargs)
+        # print(type(kwargs))
+        # print(kwargs)
+        logger.info(kwargs)
         # kwargs = {'username': 'will', 'pwd': '123456'}
         query_data = list(UserInfo.objects.filter(**kwargs).values())
         if query_data:
